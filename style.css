@@ -1,0 +1,47 @@
+@charset "utf-8" ;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.global-nav {
+    float:right;
+}
+
+.global-nav li {
+    float:left;
+    margin: 0 20px;
+    font-size: 30px;
+    list-style: none;
+    font-family: 'bitter', 'serif';
+}
+
+a {
+    color: #ffffff;
+}
+
+
+.icon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+.content { 
+    padding-top: 100px;
